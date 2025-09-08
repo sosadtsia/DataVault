@@ -1,0 +1,21 @@
+{
+  "source_folder": "/Users/yourusername/Documents",
+  "backup_interval": "1h",
+  "google_drive_auth": "/path/to/google-drive-credentials.json",
+  "pcloud_auth": "your-pcloud-api-token-here",
+  "excludes": [
+    ".git",
+    ".DS_Store",
+    "Thumbs.db",
+    "*.tmp",
+    "*.log",
+    "node_modules",
+    "__pycache__",
+    "*.pyc",
+    ".vscode",
+    ".idea"
+  ],
+  "dry_run": false,
+  "verbose": false,
+  "max_backups": 30
+}
